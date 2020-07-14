@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+    <title>Kim</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/suitcase.png" class="suitcase">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+        <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+        <script src="js.js" asp-append-version="true"></script>
+
+        
+
+</head>
+    
+
+
+<!-- <header> -->
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bgGreen box-shadow fixedTop dropSmallScreen" id="navbar">
+        <div class="container " >
+            <div class="d-flex justify-content-around topIcons"> 
+                <div>
+                    <a class="navbar-brand js-scroll-trigger" href="https://www.linkedin.com/in/kimheaktan/" target="_blank"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_linkedin-hexagon-gloss-social-media_764735.png" width="45" alt="Kimheak Tan's LinkedIn Profile"></a>
+                </div>
+                <div>
+                    <a class="navbar-brand js-scroll-trigger" href="https://github.com/kimheaktan" target="_blank"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_github-hexagon-social-media_764833.png" width="45" alt="Kimheak Tan's Github Profile"></a>
+                </div>
+                <div>
+                    <a class="navbar-brand js-scroll-trigger" href="mailto:tankimheak@gmail.com" target="_blank"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_mail-hexagon-gloss-social-media_764759.png" width="45" alt="Send Kimheak Tan a Message"></a>
+                </div>
+            </div>
+
+            <button class="navbar-toggler toggleBtn text-white" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggleBtn"></span>
+            </button>
+
+            <div class="d-flex justify-content-around dropSmallScreen">
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse text-left ">
+                <ul class="navbar-nav flex-grow-1 centerMenu">
+
+                    <li class="nav-item aboutB text-center "><a class="nav-link js-scroll-trigger text-white aboutB " href="#about"><i class="far fa-user mr-2 "></i>About</a></li>
+                    <li class="nav-item raleway aboutB text-center "><a class="nav-link js-scroll-trigger text-white" href="#technology"><i class="fas fa-cogs mr-2"></i>Technology</a></li>
+                    <li class="nav-item raleway aboutB text-center "><a class="nav-link js-scroll-trigger text-white" href="#portfolio"> <i class="fas fa-pen mr-2"></i>Projects</a></li>
+                    <li class="nav-item raleway aboutB text-center "><a class="nav-link js-scroll-trigger text-white" href="#contact"><i class="fas fa-envelope mr-2"></i>Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+<!-- </header> -->
+<body>
+
+<div class="masthead align-text-center text-white" id="masthead">
+            <div class="container h-10">
+                <div class="row align-items-center  text-center raleway justify-content-center firstThreeLine ">
+                    <div class="col-lg-10 align-self-end firstThreeLine  ">
+                        <h2 class="raleway display-4 full fadeInText">Full Stack Web Developer</h2>
+                        <h2 class="aws fadeInText">AWS Certified Cloud Practitioner</h2>
+
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <h1 class="text-white-75 font-weight-light mb-5 display-3 KIM fadeInText" style="  font-weight: bold ;"><span class="kim">KIM</span>HEAK TAN</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About-->
+        <section  class="bg-light"  style="padding-top: 50px">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h1 id="about" class="raleway display-4">About</h1><br>
+                        <img src="images/Kim1.jpeg" alt="Pic of Kim" class="KimPic1 ">
+                        <p class=" mb-2 mt-3 raleway aboutMe">A self-motivated Web Developer with a background in customer service.</p>
+                        <p class=" mb-2 mt-3 raleway aboutMe">Organized and enthusiastic collaborator.</p>
+                        <p class=" m4-2 mt-3 raleway aboutMe">Excited to learn new skills with a disciplined approach to problem solving.</p>
+
+                        <a class="btn btn-info m-5 download" href="images/KimResume.pdf" target="_blank">Resume</a>
+                    <hr class="m-5 mt-5">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 " id="technology" >
+                <h1  class="raleway display-4 text-center">Technology</h1><br>
+            <div class="allSkills">
+
+                <div class="mt-5 row d-flex justify-content-around " id="">
+
+                    <div class="col d-flex justify-content-center langIcon mb-5 skills" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/language.png" alt="languageIcon" width="30">
+                        </div>
+                        <div>
+                            <h5 class="">LANGUAGES</h5>
+                            <ul class="text-muted" style="padding-left: 0px" >
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    <div class="col d-flex justify-content-center mb-5 skills" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/library.png" alt="Icon" width="30">
+                        </div>
+                        <div class="InlineB frameworks">
+                            <h5 class="">FRAMEWORKS <br> AND LIBRARIES</h5>
+                                <ul class="text-muted" style="padding-left: 0px" >
+                                    <li>ASP .NET Core</li>
+                                    <li>Django</li>
+                                    <li>Flask</li>
+                                    <li>Bootstrap</li>
+                                    <li>jQery</li>
+                                </ul>
+                        </div>
+                    </div>
+                
+                    <div class="col d-flex justify-content-center mb-5 ml-3 skills" >
+                        <div class="icon method " style="float:left"> 
+                            <img src="images/methodology.png" alt="Icon" width="30">
+                        </div>
+                        <div class="InlineB">
+                            <h5 >METHODOLOGIES</h5>
+                                <ul class="text-muted" style="padding-left: 0px" >
+                                    <li>MVC/MTV</li>
+                                    <li>APIs</li>
+                                    <li>AJAX</li>
+                                    <li>ORMs</li>
+                                    <li>OOP</li>
+                                    <li>Responsive Web Design</li>
+                                    <li>CRUD applications</li>
+                                    <li>LINQ</li>
+                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center DB skills" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/db.png" alt="languageIcon" width="30">
+                        </div>
+                        <div class="InlineB">
+                            <h5 class="">DATABASES</h5>
+                            <ul class="text-muted " style="padding-left: 0px" >
+                                <li>SQL</li>
+                                <li>MySQL</li>
+                                <li>SQLite</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container mt-5" id="technology" >
+                <h1  class="raleway display-4 text-center">Technology</h1><br>
+                <div class="mt-5 tech row d-flex justify-content-around" id="">
+                    <div class="col d-flex justify-content-center langIcon mb-5" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/language.png" alt="languageIcon" width="30">
+                        </div>
+                        <div>
+                            <h5 class="">LANGUAGES</h5>
+                            <ul class="text-muted" >
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    <div class="col d-flex justify-content-center mb-5" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/library.png" alt="Icon" width="30">
+                        </div>
+                        <div class="InlineB">
+                            <h5 class="">FRAMEWORKS <br> AND LIBRARIES</h5>
+                                <ul class="text-muted" >
+                                    <li>ASP .NET Core</li>
+                                    <li>Django</li>
+                                    <li>Flask</li>
+                                    <li>Bootstrap</li>
+                                    <li>jQery</li>
+                                </ul>
+                        </div>
+                    </div>
+                
+                    <div class="col d-flex justify-content-center mb-5 ml-3 " >
+                        <div class="icon method " style="float:left"> 
+                            <img src="images/methodology.png" alt="Icon" width="30">
+                        </div>
+                        <div class="InlineB">
+                            <h5 >METHODOLOGIES</h5>
+                                <ul class="text-muted " >
+                                    <li>MVC/MTV</li>
+                                    <li>APIs</li>
+                                    <li>AJAX</li>
+                                    <li>ORMs</li>
+                                    <li>OOP</li>
+                                    <li>Responsive Web Design</li>
+                                    <li>CRUD applications</li>
+                                    <li>LINQ</li>
+                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center" >
+                        <div class="icon" style="float:left "> 
+                            <img src="images/db.png" alt="languageIcon" width="30">
+                        </div>
+                        <div class="InlineB DB">
+                            <h5 class="">DATABASES</h5>
+                            <ul class="text-muted DB" >
+                                <li>SQL</li>
+                                <li>MySQL</li>
+                                <li>SQLite</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <hr class="hrB4Projects mt-5">
+            </div>
+
+        </section>
+
+        <section  class="bg-light pt-5 pb-5 p-3">
+            <h1 class="text-center mb-5 mt-3 raleway display-4" id="portfolio">Projects</h1>
+            <div class="container mt-5 text-center equalized">
+                    <div class=" text-center raleway">
+                        <h2 class="projectName mb-5">Sociallife</h2>
+                        <p  class="textFont text-center detailWidth">
+                            Built with: C# | ASP .Net Core MVC | Entity Framework Core | MySQL Database | LINQ | Password Bcrypt Encryption | Bootstrap | Google Maps APIs | HTML | CSS | JavaScript | jQuery | Login/Reg Validation
+                        </p>
+                        <p style="margin-top: 30px" class="textFont detailWidth text-center">
+                            A responsive Web App where users can search, organize online groups and host in person events for people with similar interests. This  project is inspired by Meetup.
+                        </p>
+                        <div class="view mt-3"> 
+                            <a href="https://github.com/kimheaktan/sociallife" target="_blank" style="font-weight: bold"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_github-hexagon-social-media_764833.png" height="45px" 
+                            alt="codes"><br>View Codes</a>
+                        </div>
+                    </div>
+                    <div class="vdo text-center  equalized">
+                        <iframe id="vdo" class="" width="600" height="300" allowfullscreen src="https://youtube.com/embed/mSaXfwYjtyk"></iframe>
+
+                    </div>
+                </div>        
+            <div class="container mt-5 text-center equalized">
+                    <div class=" text-center raleway">
+                        <hr class="pb-5 hrBetweenVdo" >
+
+                        <h2 class="projectName mb-5">JotDown</h2>
+                        <p  class="textFont detailWidth">
+                            Built with: C# | ASP .Net Core MVC | Entity Framework Core | MySQL Database | LINQ | Bootstrap | HTML | LINQ | CSS 
+                        </p><br>
+                        <p style="margin-top: 30px" class="textFont detailWidth">
+                            A responsive Web App where users can create, delete notes and folders, and keep
+                            notes organized for easy accessibility.
+                        </p>
+                        <div class="view mt-3"> 
+                            <a href="https://github.com/kimheaktan/JotDown.git" target="_blank" style="font-weight: bold"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_github-hexagon-social-media_764833.png" height="45px" 
+                            alt="codes"><br>View Codes</a>
+                        </div>
+                    </div><br>
+                    <div class=" text-center equalized " >
+                        <iframe id="vdo" class=" " width="600" height="300" allowfullscreen src="https://youtube.com/embed/KLWkBK_-HAA"></iframe>
+                    </div>
+                </div>        
+            <div class="container mt-5 text-center equalized">
+                    <div class=" text-center raleway">
+                        <hr class="pb-5 hrBetweenVdo" >
+
+                        <h2 class="projectName mb-5">Wedding Planner</h2>
+                        <p class="textFont detailWidth">
+                            Built with: C# | ASP .Net Core MVC | Entity Framework Core | MySQL Database | LINQ | Password Bcrypt Encryption | Bootstrap | Google Maps API | HTML | CSS | Login/Reg Validation
+                        </p>
+                        <p style="margin-top: 30px" class="textFont detailWidth">
+                            A responsive Web app where users can create and attend weddings, and view a list of weddings they are attending.
+                        </p>
+                        <div class="view mt-3">
+                            <a href="https://github.com/kimheaktan/WeddingPanner" target="_blank" style="font-weight: bold" ><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/iconfinder_github-hexagon-social-media_764833.png" height=45px"
+                            alt="codes"><br>View Codes</a>
+                        </div>
+                    </div>
+                    <div class="co vdo text-center">
+                        <iframe id="vdo" width="600" style="display:non" height="300" allowfullscreen src="https://youtube.com/embed/fY0xwnQ6AxY"></iframe>
+                    </div>
+                </div>                        
+
+        </section >
+
+        <div class="text-center">
+            <a href="https://github.com/kimheaktan" target="_blank"><div class="text-muted seeMore" >more on Github</div></a>
+        </div>
+
+        <!-- Contact-->
+            
+        <section class="bg-dark container" >
+            <p class="Contactfont pt-5" id="contact">Let's connect.</p>
+            <div class="card card-body border-shadow d-flex justify-content-center" >
+                <form action="https://formspree.io/mqkykvqo" method="POST" class="form-group ">
+
+                    <input type="text" name="name" required placeholder="Name" class="form-control mb-2 shadow-lg">
+
+                    <input type="email" name="email" required placeholder="Email Address" class="form-control mb-2 shadow-lg">
+
+                    <textarea  name="message" required placeholder="Message" style="height: 150px" class="form-control shadow-lg "></textarea>
+                    <input type="submit" value="Send" class="btn btn-info shadow-lg send" style="margin-top: 15px">
+                </form>
+            </div>
+
+            <div class="container text-center text-muted" style="margin-top:25px">
+                <span class="text-center">Available for collaborations.</span>
+
+                <div class="pb-5 available">
+                <i class="fas fa-map-marker-alt"></i>
+                <span style="padding-left: 25px">Long Beach, CA</span>
+                </div>
+        <button onclick="topFunction()" id="myBtn" class="pr-3 pl-3" title="Go to top">&#x21E1;</button>
+            </div>
+            
+        </section>
+        
+    </body>
+    </html>
+    <script>
+        var size = $(".aboutB").css("fontSize");
+        $(".aboutB").hover(
+            function(){
+                $(this).css("fontSize", "16px");
+            }, 
+            function(){
+                $(this).css("fontSize", size);
+            }
+);
+      </script>

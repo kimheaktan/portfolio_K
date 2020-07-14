@@ -1,0 +1,436 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+*{
+    margin-bottom: 0px !important;
+    /* padding: 0px; */
+    /* margin-left: 0px !important; */
+    /* margin-left: 0px !important; */
+  
+  }
+  .bgGreen{
+    background-color: rgb(24,104,110) !important;
+  }
+  
+  .suitcase{
+    color: white !important;
+  }
+  a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  .fadeInText{
+    display: none;
+  }
+  
+  .fixedTop{
+    color: white !important;
+    position: relative !important;
+    position: fixed !important;
+    width: 100% !important;
+    opacity: 1 !important;
+    z-index: 1030;
+    /* background-color: rgb(29, 27, 27) !important; */
+  }
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif
+    /* font-family: "Raleway", sans-serif; */
+  }
+  .equalized{
+    display: block !important;
+    float: center !important;
+  }
+  .hrBetweenVdo{
+    width: 50%;
+    padding-left: 80px !important;
+    height: 1.5em !important;
+  
+  }
+  
+  @media only screen and (max-width: 480px){
+    html {
+      font-size: 15px;
+    }
+    .frameworks{
+      margin-right: 25px !important;
+    }
+    .skills{
+      max-width: 100% !important;
+    }
+    .detailWidth{
+      max-width: 97% !important;
+      /* padding-left: 10% !important; */
+    }
+    .topIcons{
+        margin-left: 8% !important;
+    }
+    .aboutMe{
+      font-size: 1em !important;
+      color: rgb(160, 155, 155) !important;
+    }
+    .centerMenu{
+      float: right !important;
+    }
+    .method{
+      margin-left: 7%;
+    }
+    .container{
+      margin-right: 0px !important;
+    }
+  .projectName{
+    margin-left: 8% !important;
+  }  
+
+    .tech{
+      margin-right: 25px !important;
+    }
+    iframe{
+      max-height: 200px !important;
+      max-width: 320px !important;
+      
+    }
+  
+    
+    .masthead{
+        max-height: 400px !important;
+    }
+    .card{
+      max-width: 420px;
+      float: center !important;
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+    }
+    .DB{
+      margin-right: 70px !important;
+    }
+    .aws{
+      font-size: 1em !important;
+    }
+    .lineWhenSmall{
+      margin-bottom: 7% !important;
+      max-width: 60% !important;
+  
+    }
+    
+    
+    .vdo{
+      padding-right: 10px !important;
+  
+    }
+  
+    .view{
+      padding-bottom: 2em !important;
+    }
+  
+    .KIM{
+      font-size: 1.9em !important;
+    }
+    .full{
+      font-size: 1.5em !important;
+    }
+    .dropSmallScreen{
+      padding: 0 !important;
+      /* margin:  6em !important; */
+    }
+    .langIcon{
+      padding-right: 4em !important;
+    }
+    .Contactfont{
+      font-size: 2.5em !important;
+    }
+    .seeMore{
+      font-size: 1.5em !important;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 481px){
+    html {
+      font-size: 15px;
+    }
+
+    .skills{
+      max-width: 50% !important;
+    }
+    .detailWidth{
+        max-width: 95% !important;
+        /* padding-left: 10% !important; */
+      }
+    #vdo{
+        max-width: 440px !important;
+
+    }
+    .masthead{
+      max-height: 380px !important;
+    }
+    /* .DB{
+      margin-left: 90px !important;
+    } */
+    .aboutMe{
+      font-size: 1.2em !important;
+      color: rgb(160, 155, 155) !important;
+    }
+    .KimPic1{
+      height: 200px !important;
+      width: 200px !important;
+      border-radius: 50%;
+    }
+    .available{
+      padding-top: -100px !important;
+    }
+    .full{
+        font-size: 2.4em !important;
+      }
+
+    .aws{
+        font-size: 1.5em !important;
+    }
+    .KIM{
+        font-size: 4em !important;
+    }
+    .container{
+    max-width: 100% !important;
+    /* padding-left: 30px !important;
+    padding-right: 30px !important; */
+    } 
+    .masthead{
+      min-height: 680px !important;
+    }
+    .view{
+      padding-bottom: 2em !important;
+    }
+    .card{
+      float: center !important;
+      max-width: 620px;
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1024px){
+    .container{
+      max-width: 100%;
+    }
+    .aws{
+      font-size: 2em !important;
+    }
+    .full{
+      font-size: 3.5em !important;
+    }
+    .skills{
+      max-width: 25% !important;
+    }
+    .firstThreeLine{
+        padding-top: 5% !important;
+    }
+    #vdo{
+        max-width: 550px !important;
+    }
+    .masthead{
+      min-height: 800px !important;
+    }
+    .card{
+      float: center !important;
+      max-width: 630px;
+      margin: 0 auto; /* Added */
+      float: none; /* Added */
+    }
+    .detailWidth{
+      max-width: 55% !important;
+      display: inline-block;
+    }
+    .aboutMe{
+      font-size: 1.4em !important;
+      color: rgb(160, 155, 155) !important;
+    }
+  }
+  .KimPic1{
+    height: 200px !important;
+    width: 200px !important;
+    border-radius: 50%;
+  }
+  
+  .border-top {
+    border-top: 1px solid #e5e5e5;
+  }
+  .border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .sofiaKim{
+    font-size: 23px;
+    font-family: "Sofia", sans-serif;
+    color: rgb(11, 157, 241) !important;
+  }
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  li{
+    margin-left: 40px !important;
+  }
+  
+  button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+  }
+  
+  .hrB4Projects{
+    margin: 0;
+    padding: 0 auto;
+    float: center !important;
+  }
+  
+  /* Sticky footer styles
+  -------------------------------------------------- */
+  html {
+    /* position: relative; */
+    min-height: 100%;
+  }
+  .textFont{
+    font-size: 18px !important;
+  
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  .toggleBtn{
+    background-color: white !important;
+  }
+  .contactLinks{
+    display: block !important;
+    position: absolute;
+    position: fixed;
+    margin-left: .8%;
+    float: left;
+    margin-top: 20%;
+  }
+  
+  .masthead{
+    padding-top: 15rem;
+    padding-bottom: calc(10rem - 4.5rem);
+  
+    background-position: center !important;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),url("../../images/code.jpg");
+    background-repeat: no-repeat !important;
+    background-attachment: scroll !important;
+    background-size: cover !important;
+  }
+  .align-items-center {
+    align-items: center !important;
+  
+  }
+  .kim{
+    color: rgb(60, 136, 111);
+    font-weight: bold;
+  }
+  
+  .KimPic1{
+    height: 172px !important;
+    width: 172px !important;
+    border-radius: 50%;
+  }
+  .KimPic1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;
+  }
+  .send{
+    float: right;
+    box-shadow: 2px !important;
+  }
+  /* ~~~~~to top button~~~
+   */
+   #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(156, 148, 148); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 2em; /* Increase font size */
+    opacity: 0.5;
+    font-weight: bold;
+  }
+  .InlineB{
+    display: inline-block;
+  }
+  .seeMore{
+    background-color: rgb(248,249,250);
+    font-size: 3em;
+    font-family: 'Tangerine', cursive;
+  }
+  
+  .icon{
+    margin-right: 2em;
+  }
+  
+  .download{
+    font-size: 17px;
+    box-shadow:         3px 3px 5px 3px #ccc;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+  .raleway{
+    font-family: "Raleway", sans-serif;
+  }
+  
+  
+  #vdo{
+    border-radius: 15px;
+    
+    /* box-shadow: 10px 10px #888888; */
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;
+    /* right:10px;
+      left:auto;
+      -webkit-transform:skew(4deg) rotate(3deg);
+         -moz-transform:skew(4deg) rotate(3deg);
+          -ms-transform:skew(4deg) rotate(3deg);
+           -o-transform:skew(4deg) rotate(3deg);`
+              transform:skew(4deg) rotate(3deg); */
+  }
+  
+  .projectName{
+    color: rgb(13, 216, 243);
+  
+  }
+  a{
+    text-decoration: none !important;
+  }
+  
+  .icon{
+    /* width: 50px;
+    height: 80px; */
+    /* color: grey !important; */
+    filter: grayscale(100%) !important;
+    filter: sepia(100%)!important;
+    filter: opacity(50%)!important;
+  }
+  
+  .Contactfont{
+    font-family: 'Tangerine', cursive;
+    /* font-weight: bold; */
+    font-size: 4em;
+    text-shadow: 1.45px 1.45px ;
+    color: rgb(223, 219, 223);
+    text-align: center;
+  }
+  
