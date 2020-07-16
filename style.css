@@ -167,9 +167,7 @@ for details on configuring this project to bundle and minify static web assets. 
     .masthead{
       max-height: 380px !important;
     }
-    /* .DB{
-      margin-left: 90px !important;
-    } */
+
     .aboutMe{
       font-size: 1.2em !important;
       color: rgb(160, 155, 155) !important;
@@ -393,7 +391,7 @@ for details on configuring this project to bundle and minify static web assets. 
   
   
   #vdo{
-    border-radius: 15px;
+    border-radius: 10px !important;
     
     /* box-shadow: 10px 10px #888888; */
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
