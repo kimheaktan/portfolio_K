@@ -117,10 +117,10 @@ for details on configuring this project to bundle and minify static web assets. 
     }
     
     
-    .vdo{
+    /* .vdo{
       padding-right: 10px !important;
   
-    }
+    } */
   
     .view{
       padding-bottom: 2em !important;
@@ -391,7 +391,7 @@ for details on configuring this project to bundle and minify static web assets. 
   
   
   #vdo{
-    border-radius: 10px !important;
+    /* border-radius: 10px !important; */
     
     /* box-shadow: 10px 10px #888888; */
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -408,7 +408,7 @@ for details on configuring this project to bundle and minify static web assets. 
   
   .projectName{
     color: rgb(13, 216, 243);
-  
+    font-weight: bold !important;
   }
   a{
     text-decoration: none !important;
